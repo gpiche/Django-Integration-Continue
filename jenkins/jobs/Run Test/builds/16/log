@@ -1,0 +1,8 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Test
+[Run Test] $ /bin/sh -xe /tmp/jenkins794426630563613220.sh
++ docker run --rm --name django_test -i --build-arg branch=sprint1 -v /root/.ssh:/root/.ssh 15374922017/django_test
+unknown flag: --build-arg
+See 'docker run --help'.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

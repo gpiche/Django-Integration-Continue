@@ -1,0 +1,12 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Staging
+[Run Staging] $ /bin/sh -xe /tmp/jenkins7709558117240339696.sh
++ docker inspect -f {{.State.Running}} django_staging
+true
++ docker stop django_staging
+django_staging
++ docker rm django_staging
+django_staging
++ sudo docker run --name django_staging -d -p 8000:8000 -v /root/.ssh:/root/.ssh 15374922017/django_staging
+75895ff3d94217d4725b179a3b8ebe82f405a53118770131838fba0228995210
+Finished: SUCCESS

@@ -1,0 +1,6 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Test
+[Run Test] $ /bin/sh -xe /tmp/jenkins8251212537594625740.sh
++ echo hello
+hello
+Finished: SUCCESS

@@ -1,0 +1,6 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Staging
+[Run Staging] $ /bin/sh -xe /tmp/jenkins5110153412868611687.sh
++ sudo docker run -d -p 8000:8000 -v /root/.ssh:/root/.ssh 15374922017/django_staging
+69abc65dd094c7b116ee8e3f73d79bfd7e90c5663f138acc60b6513280487673
+Finished: SUCCESS

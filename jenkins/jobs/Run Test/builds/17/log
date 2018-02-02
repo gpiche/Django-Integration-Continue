@@ -1,0 +1,8 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Test
+[Run Test] $ /bin/sh -xe /tmp/jenkins4790152026983480456.sh
++ docker run --rm --name django_test -i -e branch=sprint1 -v /root/.ssh:/root/.ssh 15374922017/django_test
+Cloning into 'project_GP-ABV'...
+error: pathspec 'branch' did not match any file(s) known to git.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

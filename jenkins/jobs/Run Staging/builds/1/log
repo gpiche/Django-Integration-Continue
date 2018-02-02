@@ -1,0 +1,12 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Staging
+[Run Staging] $ /bin/sh -xe /tmp/jenkins5720523559614231257.sh
++ sudo docker run -d -p 8000:8000 -v /root/.ssh:/root/.ssh
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...] [flags]
+
+Run a command in a new container
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

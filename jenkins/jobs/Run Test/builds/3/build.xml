@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.5.2">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>5289760</sourceProjectId>
+              <targetProjectId>5289760</targetProjectId>
+              <branch>test</branch>
+              <sourceBranch>test</sourceBranch>
+              <userName>Guillaume</userName>
+              <userEmail>gpiche1@yahoo.ca</userEmail>
+              <sourceRepoHomepage>https://gitlab.com/gpiche/project_GP-ABV</sourceRepoHomepage>
+              <sourceRepoName>project_GP-ABV</sourceRepoName>
+              <sourceNamespace>gpiche</sourceNamespace>
+              <sourceRepoUrl>git@gitlab.com:gpiche/project_GP-ABV.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@gitlab.com:gpiche/project_GP-ABV.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>https://gitlab.com/gpiche/project_GP-ABV.git</sourceRepoHttpUrl>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>test</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>Guillaume</triggeredByUser>
+              <before>97e5d7afbe50b288f3debda9a5ab437a2d220d71</before>
+              <after>c0879d86701015bf5a972444d6bae738c64c77a6</after>
+              <lastCommit>c0879d86701015bf5a972444d6bae738c64c77a6</lastCommit>
+              <targetProjectUrl>https://gitlab.com/gpiche/project_GP-ABV</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@3.7.0">
+      <commit>c0879d86701015bf5a972444d6bae738c64c77a6</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@2.7.1">
+        <path>gpiche/project_GP-ABV.git</path>
+        <rawPath>gpiche/project_GP-ABV.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>gitlab.com</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+  </actions>
+  <queueId>11</queueId>
+  <timestamp>1517327011659</timestamp>
+  <startTime>1517327011662</startTime>
+  <result>SUCCESS</result>
+  <description>Started by GitLab push by Guillaume</description>
+  <duration>1013</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/Run Test</workspace>
+  <hudsonVersion>2.89.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

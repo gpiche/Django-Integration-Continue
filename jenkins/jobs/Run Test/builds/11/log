@@ -1,0 +1,8 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Test
+[Run Test] $ /bin/sh -xe /tmp/jenkins8924729752908536064.sh
++ docker run --name django_test -i -v /root/.ssh:/root/.ssh 15374922017/django_test
+docker: Error response from daemon: Conflict. The container name "/django_test" is already in use by container "6118810c53ccbee61d521a53ba4e0755b72847c96f3cb3791d658592957d67a7". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

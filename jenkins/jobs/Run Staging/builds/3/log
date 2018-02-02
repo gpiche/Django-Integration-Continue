@@ -1,0 +1,8 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Staging
+[Run Staging] $ /bin/sh -xe /tmp/jenkins7184685653979711526.sh
++ sudo docker run -d -p 8000:8000 -v /root/.ssh:/root/.ssh 15374922017/django_staging
+9099a74137fe1945b6ff7ad531dfb83b8d6e6a83d7f4362cefb9d5f5837fef89
+docker: Error response from daemon: driver failed programming external connectivity on endpoint suspicious_kare (6d3194aa2614e547e76022cd6ab447ecfc37b7a5da779f7a0f25ade627315320): Bind for 0.0.0.0:8000 failed: port is already allocated.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

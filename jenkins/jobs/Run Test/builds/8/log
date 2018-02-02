@@ -1,0 +1,7 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Test
+[Run Test] $ /bin/sh -xe /tmp/jenkins8849808705321286449.sh
++ docker run --name django_test -it -v /root/.ssh:/root/.ssh 15374922017/django_test
+the input device is not a TTY
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

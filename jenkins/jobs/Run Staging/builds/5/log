@@ -1,0 +1,6 @@
+Started by GitLab push by Guillaume
+Building in workspace /var/jenkins_home/workspace/Run Staging
+[Run Staging] $ /bin/sh -xe /tmp/jenkins9131067833571050634.sh
+/tmp/jenkins9131067833571050634.sh: 3: /tmp/jenkins9131067833571050634.sh: Syntax error: end of file unexpected (expecting "fi")
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
