@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+  jenkins:
+    image: jenkins
+    container_name: jenkins
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./ssh:/root/.ssh
+      - ./data:/var/jenkins_home
+    ports:
+        - "8080:8080"
+    build:
+        context: .
+        dockerfile: ./jenkins/Dockerfile
+ 
+  django_staging:
+    image: django_staging
+    container_name: django_staging
+    ports:
+        - "8000:8000"
+    build:
+        context: .
+        dockerfile: ./django_staging/Dockerfile
+    volumes:
+        - ./ssh:/root/.ssh
+  
+  django_test:
+    image: django_test
+    container_name: django_test
+    build:
+        context: .
+        dockerfile: ./django_test/Dockerfile
+    volumes:
+        - ./ssh:/root/.ssh
+ 
+    
+ 
